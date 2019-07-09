@@ -1,0 +1,8 @@
+{
+  "Student_List": [
+    {
+      "query_ID": "GetAllActiveStudents",
+      "query_string" :  "select * from tbl_studentinfo with(nolock) order by createdon desc;"
+    }
+  ]
+}

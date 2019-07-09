@@ -12,6 +12,9 @@ namespace DapperExample1.Students
         protected void Page_Load(object sender, EventArgs e)
         {
 
+            Server.MapPath("~/test.json")
         }
+
+
     }
 }
